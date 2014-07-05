@@ -7,7 +7,7 @@ import (
     "github.com/gorilla/mux"
 )
 
-func main() {
+func init() {
     // Register a couple of routes.
     r := mux.NewRouter()
 
